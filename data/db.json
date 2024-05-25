@@ -1,0 +1,202 @@
+{
+  "games": [
+    {
+      "name": "Counter-Strike 2",
+      "genre": "FPS",
+      "company": "Valve",
+      "description": "Por mais de duas décadas, o Counter-Strike ofereceu uma experiência competitiva de elite, moldada por milhões de jogadores de todo o mundo. E agora o próximo capítulo da história do CS está prestes a começar. Este é o Counter-Strike 2.",
+      "year": 2012,
+      "price": "R$0.00",
+      "site": "https://store.steampowered.com/app/730/CounterStrike_2/",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1716504320",
+      "id": "3621"
+    },
+    {
+      "name": "Rainbow Six",
+      "genre": "FPS",
+      "company": "Ubisoft",
+      "description": "Tom Clancy's Rainbow Six® Siege é um jogo de tiro tático de elite baseado em equipes onde o planejamento e a execução superiores triunfam.",
+      "year": 2015,
+      "price": "R$84.99",
+      "site": "https://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/359550/header.jpg?t=1715902855",
+      "id": "247d"
+    },
+    {
+      "name": "Valorant",
+      "genre": "FPS",
+      "company": "Riot Games",
+      "description": "Valorant é um FPS tático 5x5 que tem como objetivo plantar ou desarmar a Spike. Os jogadores têm apenas uma vida por rodada e a partida é vencida pela equipe que ganhar 13 rodadas (de 25) primeiro.",
+      "year": 2020,
+      "price": "R$0.00",
+      "site": "https://playvalorant.com/pt-br/?gad_source=1&gclid=CjwKCAjw9cCyBhBzEiwAJTUWNesv7DOpLrgEDwf3oqe1f0fiDqnbAUTIBVCSSyIS5RZKwqzE6iaJaxoCTvkQAvD_BwE&gclsrc=aw.ds",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT7Kgzb-J33dJLpaoIvZUtujHAPn98Cn7opWby9Ww04w&s",
+      "id": "63d3"
+    },
+    {
+      "name": "GTA V",
+      "genre": "Mundo Aberto",
+      "company": "Rockstar Games",
+      "description": "Grand Theft Auto V para PC oferece aos jogadores a opção de explorar o premiado mundo de Los Santos e Blaine County em resoluções de até 4k e além, bem como a chance de experimentar o jogo rodando a 60 quadros por segundo.",
+      "year": 2013,
+      "price": "R$109.89",
+      "site": "https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg?t=1716224849",
+      "id": "c0df"
+    },
+    {
+      "name": "Euro Truck Simulator",
+      "genre": "Simulação",
+      "company": "SCS Software",
+      "description": "Experimente caminhões americanos lendários e entregue várias cargas na ensolarada Califórnia, na arenosa Nevada e no estado do Grand Canyon, no Arizona. American Truck Simulator leva você em uma viagem por paisagens de tirar o fôlego e pontos de referência amplamente reconhecidos nos Estados Unidos.",
+      "year": 2016,
+      "price": "R$61.99",
+      "site": "https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/227300/header.jpg?t=1716524980",
+      "id": "c60e"
+    },
+    {
+      "name": "EA Sports FC",
+      "genre": "Esportes",
+      "company": "Eletronic Arts",
+      "description": "EA SPORTS FC™ 24 dá as boas-vindas ao The World’s Game: a experiência de futebol mais fiel de todos os tempos com HyperMotionV, PlayStyles otimizados pela Opta e um motor Frostbite™ aprimorado.",
+      "year": 2024,
+      "price": "R$359.00",
+      "site": "https://store.steampowered.com/app/2195250/EA_SPORTS_FC_24/",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2195250/header.jpg?t=1713799333",
+      "id": "fa5e"
+    },
+    {
+      "name": "Call of Duty: Black Ops III",
+      "genre": "Ação",
+      "company": "Riot Games",
+      "description": "Call of Duty®: Black Ops III Zombies Chronicles Edition inclui o jogo base completo e a expansão de conteúdo Zombies Chronicles.",
+      "year": 2015,
+      "price": "R$68.90",
+      "site": "https://store.steampowered.com/app/311210/Call_of_Duty_Black_Ops_III/",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/311210/header.jpg?t=1646763462",
+      "id": "8aab"
+    },
+    {
+      "name": "Dota 2",
+      "genre": "Estratégia",
+      "company": "Valve",
+      "description": "Todos os dias, milhões de jogadores em todo o mundo entram em batalha como um dos mais de cem heróis do Dota. E não importa se é a décima hora ou a milésima hora de jogo, sempre há algo novo para descobrir. Com atualizações regulares que garantem uma evolução constante da jogabilidade, recursos e heróis, Dota 2 ganhou vida própria.",
+      "year": 2013,
+      "price": "R$0.00",
+      "site": "https://store.steampowered.com/app/570/Dota_2/",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1714502360",
+      "id": "a28b"
+    },
+    {
+      "name": "The Elder Scrolls V: Skyrim",
+      "genre": "RPG",
+      "company": "Bethesda Game Studios",
+      "description": "Vencedor de mais de 200 prêmios de Jogo do Ano, The Elder Scrolls V: Skyrim Special Edition dá vida à fantasia épica com detalhes impressionantes. A Edição Especial inclui o jogo aclamado pela crítica e complementos com recursos totalmente novos.",
+      "year": 2016,
+      "price": "R$149.00",
+      "site": "https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/489830/header.jpg?t=1701807334",
+      "id": "1f1c"
+    },
+    {
+      "name": "The Witcher 3: Wild Hunt",
+      "genre": "RPG",
+      "company": "CD Projekt Red",
+      "description": "The Witcher 3: Wild Hunt é um jogo de RPG de mundo aberto baseado em uma história, ambientado em um universo de fantasia visualmente deslumbrante cheio de escolhas significativas e consequências impactantes.",
+      "year": 2015,
+      "price": "R$99.99",
+      "site": "https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/292030/header.jpg?t=1678455090",
+      "id": "f403"
+    },
+    {
+      "name": "Fortnite",
+      "genre": "Battle Royale",
+      "company": "Epic Games",
+      "description": "Fortnite é um jogo multiplayer online onde os jogadores competem em um Battle Royale para ser o último sobrevivente. Com construção única, uma ampla gama de armas e um ambiente dinâmico, Fortnite é conhecido por sua jogabilidade inovadora e eventos ao vivo.",
+      "year": 2017,
+      "price": "R$0.00",
+      "site": "https://www.epicgames.com/fortnite",
+      "image": "https://files.tecnoblog.net/wp-content/uploads/2021/03/como-mudar-de-skin-no-fortnite-001-1060x596.jpg",
+      "id": "18b7"
+    },
+    {
+      "name": "Stardew Valley",
+      "genre": "Simulação",
+      "company": "ConcernedApe",
+      "description": "Stardew Valley é um jogo de simulação agrícola onde você herda a antiga fazenda de seu avô em Stardew Valley. Com ferramentas de segunda mão e algumas moedas, você embarca em uma nova vida para viver da terra, cultivando plantas, cuidando de animais e explorando cavernas misteriosas.",
+      "year": 2016,
+      "price": "R$24.99",
+      "site": "https://store.steampowered.com/app/413150/Stardew_Valley/",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1614976500",
+      "id": "d3e1"
+    },
+    {
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "genre": "Aventura",
+      "company": "Nintendo",
+      "description": "The Legend of Zelda: Breath of the Wild é um jogo de ação e aventura em mundo aberto onde você explora o vasto reino de Hyrule, enfrentando monstros, resolvendo quebra-cabeças e descobrindo segredos escondidos enquanto tenta salvar a princesa Zelda.",
+      "year": 2017,
+      "price": "R$299.99",
+      "site": "https://www.zelda.com/breath-of-the-wild/",
+      "image": "https://www.zelda.com/breath-of-the-wild/assets/media/header/Main-Day.jpg",
+      "id": "5c7c"
+    },
+    {
+      "name": "Apex Legends",
+      "genre": "Battle Royale",
+      "company": "Respawn Entertainment",
+      "description": "Apex Legends é um jogo de battle royale gratuito onde personagens lendários com habilidades poderosas se unem para competir por fama e fortuna nas Fronteiras. Domine um elenco crescente de Lendas diversificadas, jogabilidade tática profunda e inovações ousadas que vão além do battle royale.",
+      "year": 2019,
+      "price": "R$0.00",
+      "site": "https://www.ea.com/games/apex-legends",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1172470/header.jpg?t=1715104113",
+      "id": "87b8"
+    },
+    {
+      "name": "Cuphead",
+      "genre": "Plataforma",
+      "company": "Studio MDHR",
+      "description": "Cuphead é um jogo de plataforma e tiro focado em batalhas contra chefes. Inspirado nos desenhos animados da década de 1930, o visual e o áudio foram cuidadosamente criados com as mesmas técnicas da época, incluindo animação tradicional desenhada à mão.",
+      "year": 2017,
+      "price": "R$37.99",
+      "site": "https://store.steampowered.com/app/268910/Cuphead/",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/268910/header.jpg?t=1678465724",
+      "id": "d6fc"
+    },
+    {
+      "id": "1825",
+      "name": "A Plague Tale: Innocence",
+      "genre": "Aventura",
+      "company": "Asobo Studio",
+      "description": "Acompanhe a história sombria da jovem Amicia e de seu irmão mais novo, Hugo, em uma jornada comovente pelas horas mais sombrias da história.\n",
+      "year": 2019,
+      "price": "R$239.90",
+      "site": "https://store.steampowered.com/app/752590/A_Plague_Tale_Innocence/",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/752590/header.jpg?t=1709320046"
+    },
+    {
+      "id": "584a",
+      "name": "Payday 2",
+      "genre": "FPS",
+      "company": "OverKill",
+      "description": "PAYDAY 2 é um jogo de tiro cooperativo para quatro jogadores cheio de ação que mais uma vez permite que os jogadores vistam as máscaras da equipe original do PAYDAY - Dallas, Hoxton, Wolf e Chains - enquanto descem a Washington DC para uma onda de crimes épica.\n",
+      "year": 2013,
+      "price": "R$32.99",
+      "site": "https://store.steampowered.com/app/218620/PAYDAY_2/",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/218620/header.jpg?t=1712649983"
+    },
+    {
+      "id": "6ced",
+      "name": "Planet Coaster",
+      "genre": "Simulação",
+      "company": "Frontier Developments",
+      "description": "Planet Coaster® - o futuro dos jogos de simulação de parques de montanhas-russas chegou! Surpreenda, encante e emocione multidões incríveis enquanto você constrói seu império de parques de montanhas-russas - deixe sua imaginação correr solta e compartilhe seu sucesso com o mundo.\n",
+      "year": 2016,
+      "price": "R$81.99",
+      "site": "2016",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/493340/header.jpg?t=1709820332"
+    }
+  ]
+}

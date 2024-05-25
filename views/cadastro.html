@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 12</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles/index.css">
+    <script src="../scripts/index.js" defer></script>
+</head>
+<body onload="cards()">
+    <header>
+        <h1>Biblioteca de Games</h1>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div id="msg" class="col-sm-10 offset-sm-1 ">
+                <!--<div class="alert alert-warning">Contato não encontrado.</div>-->
+            </div>
+        </div>
+
+        <form id="form-book">            
+            <div class="form-group row">
+                <div class="col-sm-3">
+                    <select name="filtro_genre" id="filtro_genre" class="form-control" onchange="ListaGames()">
+                        <option value="-1">Selecione o Gênero</option>
+                        <option value="FPS">FPS</option>
+                        <option value="RPG">RPG</option>
+                        <option value="Aventura">Aventura</option>
+                        <option value="Ação">Ação</option>
+                        <option value="Estratégia">Estratégia</option>
+                        <option value="Mundo Aberto">Mundo Aberto</option>
+                        <option value="Esportes">Esportes</option>
+                        <option value="Simulação">Simulação</option>
+                        <option value="Battle Royale">Battle Royale</option>
+                        <option value="Plataforma">Plataforma</option>
+                    </select>      
+                </div>
+                <div class="col-sm-3">
+                    <label for="priceRange">Preço:</label>
+                    <input type="range" min="0" max="1500" step="50" id="priceRange" name="priceRange" value="0">
+                    <span id="price"></span>
+                </div>
+                <div id="msg" class="col-sm-3 ">
+                    <a href="index.html"><input type="button" class="btn btn-warning" id="btnClear" value="Cadastro"></a>
+                </div>
+            </div>
+        </form>
+        
+
+        <div id="gameCards">
+
+        </div>
+</body>
+</html>
