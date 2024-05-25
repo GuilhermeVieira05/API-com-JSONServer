@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../styles/index.css">
     <script src="../scripts/index.js" defer></script>
 </head>
-<body onload="cards()">
+<body onload="cards(), priceRange()">
     <header>
         <h1>Biblioteca de Games</h1>
     </header>
@@ -40,7 +40,7 @@
                 </div>
                 <div class="col-sm-3">
                     <label for="priceRange">Preço:</label>
-                    <input type="range" min="0" max="1500" step="50" id="priceRange" name="priceRange" value="0">
+                    <input type="range" min="0" max="1500" step="20" id="priceRange" name="priceRange" value="0" onchange="ListaGames()">
                     <span id="price"></span>
                 </div>
                 <div id="msg" class="col-sm-3 ">

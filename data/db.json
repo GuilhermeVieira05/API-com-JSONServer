@@ -197,6 +197,17 @@
       "price": "R$81.99",
       "site": "2016",
       "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/493340/header.jpg?t=1709820332"
+    },
+    {
+      "id": "eee3",
+      "name": "Squad",
+      "genre": "FPS",
+      "company": "Offworld",
+      "description": "Squad é um jogo em primeira pessoa de 50 jogadores contra 50 que tem como objetivo capturar o realismo em combate através da comunicação e equipe. As principais características incluem jogabilidade de armas combinadas com veículos, mapas em larga escala, construção de base e comunicação por voz (VoIP).\n",
+      "year": "2020",
+      "price": "R$134.99",
+      "site": "https://store.steampowered.com/app/393380/Squad/",
+      "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/393380/header.jpg?t=1713473051"
     }
   ]
 }

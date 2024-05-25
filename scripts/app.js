@@ -1,6 +1,7 @@
 const apiUrl = 'http://localhost:3000/games'
 
 const formGame = document.getElementById("form-game")
+const divs = document.querySelectorAll("div.gameCard")
 const insertBtn = document.getElementById("btnInsert")
 
 const inputName = document.getElementById("inputName")
@@ -10,7 +11,7 @@ const inputYear = document.getElementById("inputYear")
 const inputPrice = document.getElementById("inputPrice")
 const inputWebSite = document.getElementById("inputSite")
 const inputDescription = document.getElementById("inputDescription")
-const inputFile = document.getElementById("inputImage")
+const inputImage = document.getElementById("inputImage")
 
 
 function displayMessage(mensagem) {
@@ -32,7 +33,7 @@ insertBtn.addEventListener('click', ()=>{
         year: inputYear.value,
         price: `R$${inputPrice.value}`,
         site: inputWebSite.value,
-        image: "#"
+        image: inputImage.value
     }
 
     fetch(apiUrl, {
@@ -52,7 +53,14 @@ insertBtn.addEventListener('click', ()=>{
     })
 })
 
+divs.forEach(item =>{
+    item.addEventListener("click", (e) => {
+    })
+})
+
 /*
+
+
 function displayMessage(mensagem) {
     msg = document.getElementById('msg');
     msg.innerHTML = '<div class="alert alert-warning">' + mensagem + '</div>';

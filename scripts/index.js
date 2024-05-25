@@ -11,7 +11,7 @@ async function cards(){
         let str = ""
 
         data.games.forEach(game => {
-            str += `<div class="card col-md-4" style="width: 18rem;">
+            str += `<div class="card col-md-4 gameCard" style="width: 18rem;">
             <img src="${game.image}" class="card-img-top" alt="imagem do jogo">
             <div class="card-body">
             <h5 class="card-title">${game.name} - ${game.year}</h5>
@@ -30,6 +30,7 @@ async function cards(){
 
 function ListaGames(){
     let filtroGenre = selectGenre.value
+    let filtroPrice = selectRange.value
     gameCards.innerHTML = ''
 
     
@@ -38,8 +39,10 @@ function ListaGames(){
     .then(data => {
         let str = ""
         data.games.forEach(game =>{
-            if(game.genre.toUpperCase() == filtroGenre.toUpperCase() || filtroGenre == "-1"){
-                str += `<div class="card col-md-4" style="width: 18rem;">
+            let price = game.price.split('$')[1]
+            if(game.genre.toUpperCase() == filtroGenre.toUpperCase() || filtroGenre == "-1" && parseFloat(price) < filtroPrice || filtroPrice == 0){
+                if(parseFloat(price) <= parseFloat(filtroPrice) || parseFloat(filtroPrice) == 0){
+                str += `<div class="card col-md-4 gameCard" style="width: 18rem;">
                 <img src="${game.image}" class="card-img-top" alt="imagem do jogo">
                 <div class="card-body">
                 <h5 class="card-title">${game.name} - ${game.year}</h5>
@@ -52,17 +55,18 @@ function ListaGames(){
                 </div>`
                 gameCards.innerHTML = str
             }
+            }
         })
     })
 }
 
+
 function priceRange(){
-    span.textContent = selectRange.value
+    selectRange.addEventListener('change', priceRange)
+    span.textContent = `R$${selectRange.value}`
 }
 
-window.addEventListener("load", ()=>{
-    priceRange()
-})
+
 
 
 
