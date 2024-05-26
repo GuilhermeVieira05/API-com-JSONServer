@@ -1,7 +1,7 @@
 const apiUrl = 'http://localhost:3000/games'
 
 const formGame = document.getElementById("form-game")
-const divs = document.querySelectorAll("div.gameCard")
+const divs = document.querySelectorAll(".gameCard")
 const insertBtn = document.getElementById("btnInsert")
 
 const inputName = document.getElementById("inputName")
@@ -12,6 +12,7 @@ const inputPrice = document.getElementById("inputPrice")
 const inputWebSite = document.getElementById("inputSite")
 const inputDescription = document.getElementById("inputDescription")
 const inputImage = document.getElementById("inputImage")
+const inputId = document.getElementById("inputId")
 
 
 function displayMessage(mensagem) {
@@ -53,10 +54,13 @@ insertBtn.addEventListener('click', ()=>{
     })
 })
 
-divs.forEach(item =>{
-    item.addEventListener("click", (e) => {
-    })
-})
+
+
+
+
+
+
+
 
 /*
 

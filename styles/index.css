@@ -25,8 +25,22 @@ h1{
 }
 
 form{
+    color: #fff;
+    background-image: linear-gradient(to top, #2281c0, #064097);
+    padding: 1rem;
+    padding-right: 0;
+    border: 1px solid black;
+    border-radius: 10px;
     margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 10px 6px 12px 1px rgb(66, 66, 66);
 }
+
+form div label{
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+
 
 textarea{
     border-radius: 6px;
@@ -50,4 +64,10 @@ textarea{
     transform: scale(1.05);
     transform-origin: 60% 70%;
     box-shadow: 8px 8px 10px 5px rgb(84, 83, 83);
+}
+
+@media screen and (min-width: 1200px){
+    form div{
+        margin-left: 3.5rem;
+    }
 }

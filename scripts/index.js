@@ -11,7 +11,7 @@ async function cards(){
         let str = ""
 
         data.games.forEach(game => {
-            str += `<div class="card col-md-4 gameCard" style="width: 18rem;">
+            str += `<div class="card col-md-4 gameCard" style="width: 18rem;" onclick="getElement()">
             <img src="${game.image}" class="card-img-top" alt="imagem do jogo">
             <div class="card-body">
             <h5 class="card-title">${game.name} - ${game.year}</h5>
@@ -40,8 +40,8 @@ function ListaGames(){
         let str = ""
         data.games.forEach(game =>{
             let price = game.price.split('$')[1]
-            if(game.genre.toUpperCase() == filtroGenre.toUpperCase() || filtroGenre == "-1" && parseFloat(price) < filtroPrice || filtroPrice == 0){
-                if(parseFloat(price) <= parseFloat(filtroPrice) || parseFloat(filtroPrice) == 0){
+            if(game.genre.toUpperCase() == filtroGenre.toUpperCase() || filtroGenre == "-1" && parseFloat(price) <= filtroPrice || filtroPrice == ""){
+                if(parseFloat(price) <= parseFloat(filtroPrice) || parseFloat(filtroPrice) == ""){
                 str += `<div class="card col-md-4 gameCard" style="width: 18rem;">
                 <img src="${game.image}" class="card-img-top" alt="imagem do jogo">
                 <div class="card-body">
